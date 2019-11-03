@@ -37,3 +37,10 @@ input[type="checkbox"] {
   width: 40px;
   border: 1px solid white;
 }
+.trashIcon {
+  float: right;
+  margin: 7px;
+}
+.refreshIcon {
+  margin-left: 15px;
+}

@@ -7,6 +7,7 @@
     <title>Project To Do Web</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./bootstrap/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   </head>
   <body>
     <div class="hero mb-2">
@@ -21,10 +22,11 @@
               <input
                 class="form-control"
                 id="input"
-                placeholder="What's your to do list"
+                placeholder="Add new to do list"
               />
               <span>
                 <button id="btn" type="button" class="btn btn-dark">Enter</button>
+                <i class="fas fa-sync refreshIcon"></i>
               </span>
             </div>
           </form>
@@ -32,13 +34,19 @@
         <div class="row">
           <ul id="list"  class="list col-8 mx-auto">
             <li>
-              Wake Up in The Morning <input type="checkbox" class="checkbox">
+              <input type="checkbox" class="checkbox">
+              Wake Up in The Morning
+              <i class="far fa-trash-alt trashIcon"></i>
             </li>
             <li>
-              Breakfast <input type="checkbox" class="checkbox">
+              <input type="checkbox" class="checkbox">
+              Breakfast
+              <i class="far fa-trash-alt trashIcon"></i>
             </li>
             <li>
-              Take a Bath <input type="checkbox" class="checkbox">
+              <input type="checkbox" class="checkbox">
+              Take a Bath
+              <i class="far fa-trash-alt trashIcon"></i>
             </li>
             </li>
           </ul>
